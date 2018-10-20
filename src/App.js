@@ -8,9 +8,9 @@ import ItemsList from './ItemsList';
 class App extends React.Component {
 
 	/**
-	 * @namespace
-	 * @property {string} value		- current user input value
-	 * @property {string[]} items 	- list of items added by the user so far
+	 * @member	 {Object}	state
+	 * @property {string}	state.value		- current user input value
+	 * @property {string[]}	state.items 	- list of items added by the user so far
 	 */
 	state = {
 		value: '',
